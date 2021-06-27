@@ -1,38 +1,146 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav_design {
+  background-color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home_icon {
+  margin-left: 125px;
+  margin-top: 40px;
+}
+
+.all_nav {
+  margin-top: 40px;
+  margin-right: 25px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1.5px;
+  line-height: 22.5px;
+}
+
+.contact_nav {
+  margin-right: 100px;
+}
+
+.text_section {
+  background-color: white;
+}
+
+.text_editing {
+  line-height: 60px;
+}
+
+.text_web {
+  margin-top: 12px;
+  font-size: 20px !important;
+}
+
+.image_section {
+  background-color: white;
+  margin-left: -100px;
+}
+
+.image_design {
+  width: 550px;
+  height: 414px;
+}
+
+.v6_0 {
+  width: 201px;
+  color: rgba(82, 78, 78, 1);
+  top: 216px;
+  left: 140px;
+  font-family: Poppins;
+  font-weight: Light;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v6_1 {
+  width: 566px;
+  color: rgba(43, 6, 148, 1);
+
+  top: 242px;
+  left: 135px;
+  font-family: Poppins;
+  font-weight: SemiBold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v6_2 {
+  width: 520px;
+  color: rgba(36, 35, 35, 1);
+  top: 321px;
+  left: 135px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 21px;
+  opacity: 1;
+  text-align: left;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.info {
+  margin-top: 30px;
+}
+
+.social_logo {
+  margin-top: -180px;
+  margin-left: -15px;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.github {
+  color: black;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}
+
+.button_info {
+  margin-top: 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: -15px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn_design_first {
+  background-color: #ff542f;
+  margin-right: -10px;
+  color: #f9f9f9;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn_design_second {
+  background-color: #8a36c0;
+  color: #f9f9f9;
+  border-radius: 10px;
 }
