@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { NavLink } from "react-router-dom";
+import TypeWriter from "typewriter-effect";
 import "../App.css";
 import hmimg from "../images/home_main.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -26,7 +27,16 @@ const Home = () => {
                   <span className='v6_0 text_editing'>HEY THERE !</span>
                   <h2 className='v6_1 text_editing'>I AM RANJEET HINGE</h2>
                   <h2 className='v6_2 text_editing'>
-                    WEB DEVELOPER & COMPETITIVE PROGRAMMER..
+                    {/* WEB DEVELOPER & COMPETITIVE PROGRAMMER.. */}
+
+                    <TypeWriter
+                      options={{
+                        autoStart: true,
+                        loop: true,
+                        delay: 40,
+                        strings: ["WEB DEVELOPER", "COMPETITIVE PROGRAMMER"],
+                      }}
+                    />
                   </h2>
                 </div>
               </div>
