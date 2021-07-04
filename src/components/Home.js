@@ -5,6 +5,8 @@ import TypeWriter from "typewriter-effect";
 import "../App.css";
 import hmimg from "../images/home_main.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { motion } from "framer-motion";
+
 import {
   faTwitter,
   faInstagram,
@@ -70,15 +72,27 @@ const Home = () => {
 
             <div className='button_info'>
               <NavLink className='nav-link all_nav ' to='/contact'>
-                <button type='button' class='btn  btn_design_first'>
+                <motion.button
+                  type='button'
+                  class='btn  btn_design_first'
+                  whileHover={{ scale: 1.1 }}
+                >
                   SEE MY WORK
-                </button>
+                </motion.button>
               </NavLink>
 
               <NavLink className='nav-link all_nav ' to='/contact'>
-                <button type='button' class='btn  btn_design_second'>
+                <motion.button
+                  type='button'
+                  class='btn  btn_design_second'
+                  whileHover={{
+                    scale: 1.1,
+                    textShadow: "0px 0px 8px rbg(255,255,255)",
+                    boxShadow: "0px 0px 8px rbg(255,255,255)",
+                  }}
+                >
                   CONTACT ME
-                </button>
+                </motion.button>
               </NavLink>
             </div>
           </div>
