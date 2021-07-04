@@ -7,18 +7,20 @@ import "../App.css";
 function Card(props) {
   return (
     <>
-      <div className='card '>
-        <img
-          src={props.imgsrc}
-          alt='codechef logo'
-          className='codechef_logo_design'
-        />
-        <div className='card-body'>
-          <h5 className='card-title'>{props.title}</h5>
-          <p className='card-text'>{props.desc}</p>
-          <a href={props.link} className='btn btn-primary'>
-            Visit Profile
-          </a>
+      <div className='full_card  '>
+        <div className='card cp_card'>
+          <img
+            src={props.imgsrc}
+            alt='codechef logo'
+            className='codechef_logo_design'
+          />
+          <div className='card-body'>
+            <h5 className='card-title '>{props.title}</h5>
+            <p className='card-text'>{props.desc}</p>
+            <a href={props.link} className='btn btn-primary'>
+              Visit Profile
+            </a>
+          </div>
         </div>
       </div>
     </>
